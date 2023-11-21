@@ -3,14 +3,18 @@
 }
 
 p{
+    display: block;
   margin: 0;
   padding: 0;
-  font-family: Lato; sans-serif;
+  font-family: Lato;
+  font-family: sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
-  background-color: #f6f6f4;
+  
 }
+
+/*header*/
 
 .header{
     min-height: 1455px;
@@ -19,3 +23,155 @@ p{
     background-repeat: no-repeat;
     background-position: center center;
 }
+
+.container{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.header-top{
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 190px;
+    margin-bottom: 580px;
+}
+
+.header-title{
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 60px;
+    color: #521a66;
+    line-height: 0,8;
+}
+
+h1, h2{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
+.header-tagline{
+    font-size: 20px;
+    color: #713a84;
+    line-height: 1.2;
+    margin: 20px;
+    margin-bottom: 20px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.header-bottom{
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-subtitle{
+    font-size: 40px;
+    color: #fff;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.header-bottom-text{
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #a87bb7;
+    line-height: 1.65;
+}
+
+.header-bottom-btn{
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.btn{
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 3px;
+    background-color: #58c4c4;
+    box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.41);
+    font-size: 28px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    line-height: 1.177;
+
+}
+
+.heder-scr-to{
+    order: -1;
+}
+
+/*section-1 figur*/
+
+section{
+    display: block;
+}
+
+.product{
+    padding-top: 110px;
+    padding-bottom: 90px;
+    background-image: linear-gradient(135deg, #9042ab, #2b093d);
+    border-top:  1px solid #360e47;
+}
+.product-inner{
+    position: relative;
+}
+
+.product-text{
+    position: absolute;
+    right: 0;
+    top: -40px;
+    width: 460px;
+    text-align: right;
+}
+
+.product-title{
+    font-size: 30px;
+    color: #fff;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.product-description{
+    font-size: 20px;
+    font-family: Lato;
+    color: #a87bb7;
+    line-height: 1.65;
+    margin-bottom: 40px
+}
+
+/*Figure*/
+
+.product-img-figure{
+    width: 760px;
+    margin: 0;
+}
+
+.product-img{
+    width: 100%;
+}
+
+.img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.product-img-caption {
+    position: absolute;
+    right: 0;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #764c8c;
+    }
