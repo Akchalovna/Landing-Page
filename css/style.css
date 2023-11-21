@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+  font-family: Lato; sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  background-color: #f6f6f4;
+}
+
+.header{
+    min-height: 1455px;
+    text-align: center;
+    background-image: url(../images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
